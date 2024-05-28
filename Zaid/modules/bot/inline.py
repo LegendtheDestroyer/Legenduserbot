@@ -82,7 +82,7 @@ async def help_function(answers):
         InlineQueryResultArticle(
             title="Help Article!",
             description="Check Command List & Help",
-            thumb_url="https://telegra.ph/file/e47dec752f401ca448052.jpg,
+            thumb_url="https://telegra.ph/file/e47dec752f401ca448052.jpg",
             input_message_content=InputTextMessageContent(
                 Data.text_help_menu.format(len(CMD_HELP))
             ),
