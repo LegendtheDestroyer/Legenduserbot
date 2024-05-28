@@ -7,7 +7,7 @@
     "env": {
         "STRING_SESSION1": {
             "description": "fill with the telethon/pyrogram session string",
-            "required": false
+            "required": true
         },
         "MONGO_URL": {
             "description": "Fill there an mongo database from mongodb.com",
