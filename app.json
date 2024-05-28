@@ -17,17 +17,17 @@
         "SUDO_USERS": {
             "description": "Fill there your I'd ",
             "required": true,
-            "value": "1234567890 1234567890"
+            "value": "6864577500"
         },
         "OWNER_ID": {
             "description": "Fill there your I'd ",
             "required": true,
-            "value": "1234567890"
+            "value": "7142572775"
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
             "required": true,
-            "value": ""
+            "value": "7327533693:AAGt1FY34jzwhZqC8F3FHQbI32xphfPOZGQ"
         }
 
     }
