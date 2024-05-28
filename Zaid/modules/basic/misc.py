@@ -11,20 +11,20 @@ from Zaid.helper.PyroHelpers import ReplyCheck
 from Zaid.modules.help import add_command_help
 from Zaid.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://telegra.ph/file/cc0890d0876bc18c19e05.jpg"
+alive_logo = ALIVE_PIC or "https://telegra.ph/file/e47dec752f401ca448052.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** ✘ zαι∂ υѕєявσт ✘**\n\n"
+        f"** 𝙇𝙀𝙂𝙀𝙉𝘿 **\n\n"
         f"❏ **νєяѕισи**: `2.1`\n"
         f"├• **υρтιмє**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **ρутнσи**: `{python_version()}`\n"
         f"├• **ρуяσgяαм**: `{__version__}`\n"
-        f"├• **ѕυρρσят**: [Click](t.me/TheSupportChat)\n"
-        f"├• **¢нαииєℓ**: [Click](t.me/TheUpdatesChannel)\n"
-        f"└• **яєρσ**: [Click](https://GitHub.com/itz-zaid/Zaid-Userbot)"        
+        f"├• **ѕυρρσят**: [Click](https://t.me/TitanBotStore)\n"
+        f"├• **¢нαииєℓ**: [Click](https://t.me/TitanBotStore)\n"
+        f"└• **яєρσ**: [Click](https://github.com/LegendtheDestroyer/Legenduserbot)"        
     )
 
 @Client.on_message(
@@ -57,12 +57,12 @@ async def repo(bot: Client, message: Message):
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit("Here is repo: \n\n\nhttps://github.com/itz-zaid/Zaid-UserBot\nFork & Give an ⭐")
+    await message.edit("Here is repo: \n\n\nhttps://github.com/LegendtheDestroyer/Legenduserbot/\nFork & Give an ⭐")
 
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("https://gitHub.com/itz-zaid")
+    await message.edit("https://github.com/LegendtheDestroyer/Legenduserbot")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
